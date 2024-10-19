@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <!-- Add test data to products table -->
+    <changeSet id="add-test-products" author="msleshk">
+        <insert tableName="products">
+            <column name="name" value="Product 1"/>
+            <column name="description" value="Description for Product 1"/>
+            <column name="active" valueBoolean="true"/>
+            <column name="start_date" valueDate="2024-01-01"/>
+        </insert>
+        <insert tableName="products">
+            <column name="name" value="Product 2"/>
+            <column name="description" value="Description for Product 2"/>
+            <column name="active" valueBoolean="true"/>
+            <column name="start_date" valueDate="2024-01-02"/>
+        </insert>
+        <insert tableName="products">
+            <column name="name" value="Product 3"/>
+            <column name="description" value="Description for Product 3"/>
+            <column name="active" valueBoolean="true"/>
+            <column name="start_date" valueDate="2024-01-03"/>
+        </insert>
+        <insert tableName="products">
+            <column name="name" value="Product 4"/>
+            <column name="description" value="Description for Product 4"/>
+            <column name="active" valueBoolean="true"/>
+            <column name="start_date" valueDate="2024-01-04"/>
+        </insert>
+        <insert tableName="products">
+            <column name="name" value="Product 5"/>
+            <column name="description" value="Description for Product 5"/>
+            <column name="active" valueBoolean="true"/>
+            <column name="start_date" valueDate="2024-01-05"/>
+        </insert>
+        <insert tableName="products">
+            <column name="name" value="Product 6"/>
+            <column name="description" value="Description for Product 6"/>
+            <column name="active" valueBoolean="true"/>
+            <column name="start_date" valueDate="2024-01-06"/>
+        </insert>
+        <insert tableName="products">
+            <column name="name" value="Product 7"/>
+            <column name="description" value="Description for Product 7"/>
+            <column name="active" valueBoolean="true"/>
+            <column name="start_date" valueDate="2024-01-07"/>
+        </insert>
+        <insert tableName="products">
+            <column name="name" value="Product 8"/>
+            <column name="description" value="Description for Product 8"/>
+            <column name="active" valueBoolean="true"/>
+            <column name="start_date" valueDate="2024-01-08"/>
+        </insert>
+        <insert tableName="products">
+            <column name="name" value="Product 9"/>
+            <column name="description" value="Description for Product 9"/>
+            <column name="active" valueBoolean="true"/>
+            <column name="start_date" valueDate="2024-01-09"/>
+        </insert>
+        <insert tableName="products">
+            <column name="name" value="Product 10"/>
+            <column name="description" value="Description for Product 10"/>
+            <column name="active" valueBoolean="true"/>
+            <column name="start_date" valueDate="2024-01-10"/>
+        </insert>
+        <insert tableName="products">
+            <column name="name" value="Product 11"/>
+            <column name="description" value="Description for Product 11"/>
+            <column name="active" valueBoolean="true"/>
+            <column name="start_date" valueDate="2024-01-11"/>
+        </insert>
+        <insert tableName="products">
+            <column name="name" value="Product 12"/>
+            <column name="description" value="Description for Product 12"/>
+            <column name="active" valueBoolean="true"/>
+            <column name="start_date" valueDate="2024-01-12"/>
+        </insert>
+        <insert tableName="products">
+            <column name="name" value="Product 13"/>
+            <column name="description" value="Description for Product 13"/>
+            <column name="active" valueBoolean="true"/>
+            <column name="start_date" valueDate="2024-01-13"/>
+        </insert>
+        <insert tableName="products">
+            <column name="name" value="Product 14"/>
+            <column name="description" value="Description for Product 14"/>
+            <column name="active" valueBoolean="true"/>
+            <column name="start_date" valueDate="2024-01-14"/>
+        </insert>
+        <insert tableName="products">
+            <column name="name" value="Product 15"/>
+            <column name="description" value="Description for Product 15"/>
+            <column name="active" valueBoolean="true"/>
+            <column name="start_date" valueDate="2024-01-15"/>
+        </insert>
+        <insert tableName="products">
+            <column name="name" value="Product 16"/>
+            <column name="description" value="Description for Product 16"/>
+            <column name="active" valueBoolean="true"/>
+            <column name="start_date" valueDate="2024-01-16"/>
+        </insert>
+        <insert tableName="products">
+            <column name="name" value="Product 17"/>
+            <column name="description" value="Description for Product 17"/>
+            <column name="active" valueBoolean="true"/>
+            <column name="start_date" valueDate="2024-01-17"/>
+        </insert>
+        <insert tableName="products">
+            <column name="name" value="Product 18"/>
+            <column name="description" value="Description for Product 18"/>
+            <column name="active" valueBoolean="true"/>
+            <column name="start_date" valueDate="2024-01-18"/>
+        </insert>
+        <insert tableName="products">
+            <column name="name" value="Product 19"/>
+            <column name="description" value="Description for Product 19"/>
+            <column name="active" valueBoolean="true"/>
+            <column name="start_date" valueDate="2024-01-19"/>
+        </insert>
+        <insert tableName="products">
+            <column name="name" value="Product 20"/>
+            <column name="description" value="Description for Product 20"/>
+            <column name="active" valueBoolean="true"/>
+            <column name="start_date" valueDate="2024-01-20"/>
+        </insert>
+    </changeSet>
+
+    <!-- Add test data to sku table -->
+    <changeSet id="add-test-skus" author="msleshk">
+        <insert tableName="sku">
+            <column name="color" value="Red"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="29.99"/>
+            <column name="product_id" valueNumeric="1"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Green"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="34.99"/>
+            <column name="product_id" valueNumeric="1"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Blue"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="19.99"/>
+            <column name="product_id" valueNumeric="2"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Yellow"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="24.99"/>
+            <column name="product_id" valueNumeric="3"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Black"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="29.99"/>
+            <column name="product_id" valueNumeric="3"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="White"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="22.99"/>
+            <column name="product_id" valueNumeric="4"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Purple"/>
+            <column name="availability" valueBoolean="false"/>
+            <column name="price" valueNumeric="19.49"/>
+            <column name="product_id" valueNumeric="5"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Pink"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="24.99"/>
+            <column name="product_id" valueNumeric="6"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Orange"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="31.99"/>
+            <column name="product_id" valueNumeric="7"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Cyan"/>
+            <column name="availability" valueBoolean="false"/>
+            <column name="price" valueNumeric="18.99"/>
+            <column name="product_id" valueNumeric="8"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Brown"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="29.99"/>
+            <column name="product_id" valueNumeric="9"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Gray"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="23.99"/>
+            <column name="product_id" valueNumeric="10"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Maroon"/>
+            <column name="availability" valueBoolean="false"/>
+            <column name="price" valueNumeric="27.49"/>
+            <column name="product_id" valueNumeric="11"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Teal"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="25.99"/>
+            <column name="product_id" valueNumeric="12"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Navy"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="30.99"/>
+            <column name="product_id" valueNumeric="13"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Olive"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="28.49"/>
+            <column name="product_id" valueNumeric="14"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Lime"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="20.99"/>
+            <column name="product_id" valueNumeric="15"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Coral"/>
+            <column name="availability" valueBoolean="false"/>
+            <column name="price" valueNumeric="26.99"/>
+            <column name="product_id" valueNumeric="16"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Salmon"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="33.99"/>
+            <column name="product_id" valueNumeric="17"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Lavender"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="21.49"/>
+            <column name="product_id" valueNumeric="18"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Mint"/>
+            <column name="availability" valueBoolean="false"/>
+            <column name="price" valueNumeric="29.99"/>
+            <column name="product_id" valueNumeric="19"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Charcoal"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="24.99"/>
+            <column name="product_id" valueNumeric="20"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Teal Blue"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="39.99"/>
+            <column name="product_id" valueNumeric="1"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Dusty Rose"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="19.99"/>
+            <column name="product_id" valueNumeric="2"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Amber"/>
+            <column name="availability" valueBoolean="false"/>
+            <column name="price" valueNumeric="49.99"/>
+            <column name="product_id" valueNumeric="3"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Lavender Mist"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="32.99"/>
+            <column name="product_id" valueNumeric="4"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Golden Yellow"/>
+            <column name="availability" valueBoolean="false"/>
+            <column name="price" valueNumeric="22.49"/>
+            <column name="product_id" valueNumeric="5"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Sky Blue"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="16.99"/>
+            <column name="product_id" valueNumeric="6"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Firebrick"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="29.99"/>
+            <column name="product_id" valueNumeric="7"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Mint Green"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="34.99"/>
+            <column name="product_id" valueNumeric="8"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Olive Drab"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="39.49"/>
+            <column name="product_id" valueNumeric="9"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Cerulean"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="24.99"/>
+            <column name="product_id" valueNumeric="10"/>
+        </insert>
+    </changeSet>
+
+    <changeSet id="add-additional-skus" author="msleshk">
+        <insert tableName="sku">
+            <column name="color" value="Red"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="15.99"/>
+            <column name="product_id" valueNumeric="1"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Green"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="18.99"/>
+            <column name="product_id" valueNumeric="2"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Blue"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="22.99"/>
+            <column name="product_id" valueNumeric="3"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Yellow"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="12.99"/>
+            <column name="product_id" valueNumeric="4"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Black"/>
+            <column name="availability" valueBoolean="false"/>
+            <column name="price" valueNumeric="19.99"/>
+            <column name="product_id" valueNumeric="5"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="White"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="14.99"/>
+            <column name="product_id" valueNumeric="6"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Purple"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="21.99"/>
+            <column name="product_id" valueNumeric="7"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Orange"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="16.99"/>
+            <column name="product_id" valueNumeric="8"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Gray"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="20.99"/>
+            <column name="product_id" valueNumeric="9"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Cyan"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="17.99"/>
+            <column name="product_id" valueNumeric="10"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Magenta"/>
+            <column name="availability" valueBoolean="false"/>
+            <column name="price" valueNumeric="23.99"/>
+            <column name="product_id" valueNumeric="11"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Brown"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="22.99"/>
+            <column name="product_id" valueNumeric="12"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Beige"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="18.99"/>
+            <column name="product_id" valueNumeric="13"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Teal"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="20.99"/>
+            <column name="product_id" valueNumeric="14"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Coral"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="19.99"/>
+            <column name="product_id" valueNumeric="15"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Lime"/>
+            <column name="availability" valueBoolean="false"/>
+            <column name="price" valueNumeric="25.99"/>
+            <column name="product_id" valueNumeric="16"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Khaki"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="22.99"/>
+            <column name="product_id" valueNumeric="17"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Olive"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="21.99"/>
+            <column name="product_id" valueNumeric="18"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Navy"/>
+            <column name="availability" valueBoolean="false"/>
+            <column name="price" valueNumeric="24.99"/>
+            <column name="product_id" valueNumeric="19"/>
+        </insert>
+        <insert tableName="sku">
+            <column name="color" value="Salmon"/>
+            <column name="availability" valueBoolean="true"/>
+            <column name="price" valueNumeric="27.99"/>
+            <column name="product_id" valueNumeric="20"/>
+        </insert>
+    </changeSet>
+
+
+</databaseChangeLog>

@@ -38,5 +38,5 @@
                 constraintName="fk_product"
                 onDelete="CASCADE"/>
     </changeSet>
-
+    <include file="db/changelog/changelog-test-data.xml"/>
 </databaseChangeLog>
