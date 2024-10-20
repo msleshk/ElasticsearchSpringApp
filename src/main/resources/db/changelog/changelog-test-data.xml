@@ -8,122 +8,122 @@
     <!-- Add test data to products table -->
     <changeSet id="add-test-products" author="msleshk">
         <insert tableName="products">
-            <column name="name" value="Product 1"/>
-            <column name="description" value="Description for Product 1"/>
+            <column name="name" value="Basic T-Shirt"/>
+            <column name="description" value="A simple cotton t-shirt without prints, perfect for everyday wear."/>
             <column name="active" valueBoolean="true"/>
             <column name="start_date" valueDate="2024-01-01"/>
         </insert>
         <insert tableName="products">
-            <column name="name" value="Product 2"/>
-            <column name="description" value="Description for Product 2"/>
-            <column name="active" valueBoolean="true"/>
+            <column name="name" value="Slim Fit Jeans"/>
+            <column name="description" value="Comfortable jeans with a fitted cut, suitable for stylish outfits."/>
+            <column name="active" valueBoolean="false"/>
             <column name="start_date" valueDate="2024-01-02"/>
         </insert>
         <insert tableName="products">
-            <column name="name" value="Product 3"/>
-            <column name="description" value="Description for Product 3"/>
+            <column name="name" value="Bomber Jacket"/>
+            <column name="description" value="A lightweight jacket with ribbed cuffs and hem, great for spring and autumn."/>
             <column name="active" valueBoolean="true"/>
             <column name="start_date" valueDate="2024-01-03"/>
         </insert>
         <insert tableName="products">
-            <column name="name" value="Product 4"/>
-            <column name="description" value="Description for Product 4"/>
+            <column name="name" value="Hooded Sweatshirt"/>
+            <column name="description" value="Cozy sweatshirt made from soft material, ideal for active leisure."/>
             <column name="active" valueBoolean="true"/>
             <column name="start_date" valueDate="2024-01-04"/>
         </insert>
         <insert tableName="products">
-            <column name="name" value="Product 5"/>
-            <column name="description" value="Description for Product 5"/>
-            <column name="active" valueBoolean="true"/>
+            <column name="name" value="Maxi Dress"/>
+            <column name="description" value="A long dress made from lightweight fabric, perfect for summer outings."/>
+            <column name="active" valueBoolean="false"/>
             <column name="start_date" valueDate="2024-01-05"/>
         </insert>
         <insert tableName="products">
-            <column name="name" value="Product 6"/>
-            <column name="description" value="Description for Product 6"/>
+            <column name="name" value="Classic Blazer"/>
+            <column name="description" value="An elegant blazer suitable for both office wear and evening events."/>
             <column name="active" valueBoolean="true"/>
             <column name="start_date" valueDate="2024-01-06"/>
         </insert>
         <insert tableName="products">
-            <column name="name" value="Product 7"/>
-            <column name="description" value="Description for Product 7"/>
+            <column name="name" value="Sports Leggings"/>
+            <column name="description" value="Stretchy leggings for workouts, providing comfort and support."/>
             <column name="active" valueBoolean="true"/>
             <column name="start_date" valueDate="2024-01-07"/>
         </insert>
         <insert tableName="products">
-            <column name="name" value="Product 8"/>
-            <column name="description" value="Description for Product 8"/>
+            <column name="name" value="Running Sneakers"/>
+            <column name="description" value="Lightweight and breathable sneakers, ideal for running and active sports."/>
             <column name="active" valueBoolean="true"/>
             <column name="start_date" valueDate="2024-01-08"/>
         </insert>
         <insert tableName="products">
-            <column name="name" value="Product 9"/>
-            <column name="description" value="Description for Product 9"/>
-            <column name="active" valueBoolean="true"/>
+            <column name="name" value="Sundress"/>
+            <column name="description" value="A light sundress for warm weather, perfect to wear over a t-shirt or blouse."/>
+            <column name="active" valueBoolean="false"/>
             <column name="start_date" valueDate="2024-01-09"/>
         </insert>
         <insert tableName="products">
-            <column name="name" value="Product 10"/>
-            <column name="description" value="Description for Product 10"/>
+            <column name="name" value="Cargo Shorts"/>
+            <column name="description" value="Comfortable shorts with pockets, great for outdoor adventures."/>
             <column name="active" valueBoolean="true"/>
             <column name="start_date" valueDate="2024-01-10"/>
         </insert>
         <insert tableName="products">
-            <column name="name" value="Product 11"/>
-            <column name="description" value="Description for Product 11"/>
+            <column name="name" value="Thermal Underwear"/>
+            <column name="description" value="Warm and lightweight thermal wear, perfect for winter sports."/>
             <column name="active" valueBoolean="true"/>
             <column name="start_date" valueDate="2024-01-11"/>
         </insert>
         <insert tableName="products">
-            <column name="name" value="Product 12"/>
-            <column name="description" value="Description for Product 12"/>
+            <column name="name" value="Long-Sleeve Blouse"/>
+            <column name="description" value="An elegant long-sleeve blouse, ideal for office attire."/>
             <column name="active" valueBoolean="true"/>
             <column name="start_date" valueDate="2024-01-12"/>
         </insert>
         <insert tableName="products">
-            <column name="name" value="Product 13"/>
-            <column name="description" value="Description for Product 13"/>
+            <column name="name" value="Leather Skirt"/>
+            <column name="description" value="A stylish natural leather skirt, perfect for creating a chic look."/>
             <column name="active" valueBoolean="true"/>
             <column name="start_date" valueDate="2024-01-13"/>
         </insert>
         <insert tableName="products">
-            <column name="name" value="Product 14"/>
-            <column name="description" value="Description for Product 14"/>
+            <column name="name" value="Oversized Sweatshirt"/>
+            <column name="description" value="A relaxed-fit sweatshirt for a casual and comfortable style."/>
             <column name="active" valueBoolean="true"/>
             <column name="start_date" valueDate="2024-01-14"/>
         </insert>
         <insert tableName="products">
-            <column name="name" value="Product 15"/>
-            <column name="description" value="Description for Product 15"/>
+            <column name="name" value="Chino Pants"/>
+            <column name="description" value="Versatile chinos that can be dressed up or down for various occasions."/>
             <column name="active" valueBoolean="true"/>
             <column name="start_date" valueDate="2024-01-15"/>
         </insert>
         <insert tableName="products">
-            <column name="name" value="Product 16"/>
-            <column name="description" value="Description for Product 16"/>
+            <column name="name" value="Denim Jacket"/>
+            <column name="description" value="A classic denim jacket that never goes out of style, perfect for layering."/>
             <column name="active" valueBoolean="true"/>
             <column name="start_date" valueDate="2024-01-16"/>
         </insert>
         <insert tableName="products">
-            <column name="name" value="Product 17"/>
-            <column name="description" value="Description for Product 17"/>
+            <column name="name" value="Puffer Vest"/>
+            <column name="description" value="A lightweight puffer vest for added warmth without bulk, ideal for layering."/>
             <column name="active" valueBoolean="true"/>
             <column name="start_date" valueDate="2024-01-17"/>
         </insert>
         <insert tableName="products">
-            <column name="name" value="Product 18"/>
-            <column name="description" value="Description for Product 18"/>
+            <column name="name" value="Graphic Tee"/>
+            <column name="description" value="A trendy t-shirt featuring a bold graphic print, great for casual outfits."/>
             <column name="active" valueBoolean="true"/>
             <column name="start_date" valueDate="2024-01-18"/>
         </insert>
         <insert tableName="products">
-            <column name="name" value="Product 19"/>
-            <column name="description" value="Description for Product 19"/>
+            <column name="name" value="Knitted Sweater"/>
+            <column name="description" value="A cozy knitted sweater, perfect for chilly days and casual outings."/>
             <column name="active" valueBoolean="true"/>
             <column name="start_date" valueDate="2024-01-19"/>
         </insert>
         <insert tableName="products">
-            <column name="name" value="Product 20"/>
-            <column name="description" value="Description for Product 20"/>
+            <column name="name" value="Ankle Sneakers"/>
+            <column name="description" value="Stylish ankle sneakers that complement various outfits, suitable for any season."/>
             <column name="active" valueBoolean="true"/>
             <column name="start_date" valueDate="2024-01-20"/>
         </insert>

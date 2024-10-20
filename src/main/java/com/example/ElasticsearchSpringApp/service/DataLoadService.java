@@ -25,5 +25,7 @@ public class DataLoadService {
         for (Product product : filteredProducts){
             indexService.indexProductWithSkus(product);
         }
+
+        indexService.removeInactiveProductsFromElasticsearch(filteredProducts);
     }
 }

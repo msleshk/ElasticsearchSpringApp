@@ -80,4 +80,16 @@ public class Product {
     public void setSkuList(List<Sku> skuList) {
         this.skuList = skuList;
     }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", active=" + active +
+                ", startDate=" + startDate +
+                ", skuList=" + skuList +
+                '}';
+    }
 }
