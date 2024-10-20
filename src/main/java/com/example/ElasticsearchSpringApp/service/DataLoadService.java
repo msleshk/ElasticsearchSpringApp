@@ -22,7 +22,7 @@ public class DataLoadService {
     public void loadDataToElasticsearch() throws IOException {
         List<Product> filteredProducts = productsRepository.findAllActiveProducts();
 
-        for (Product product : filteredProducts){
+        for (Product product : filteredProducts) {
             indexService.indexProductWithSkus(product);
         }
 

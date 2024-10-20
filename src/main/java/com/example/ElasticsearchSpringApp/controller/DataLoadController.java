@@ -21,8 +21,8 @@ public class DataLoadController {
         try {
             dataLoadService.loadDataToElasticsearch();
             return "Data loaded successfully";
-        } catch (Exception e){
-          return "failed to load data" + e.getMessage();
+        } catch (Exception e) {
+            return "failed to load data" + e.getMessage();
         }
     }
 }

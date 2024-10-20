@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 public class ElasticsearchConfig {
 
     @Bean
-    public ElasticsearchClient createElasticsearchClient(){
+    public ElasticsearchClient createElasticsearchClient() {
         RestClient restClient = RestClient.builder(
                 new HttpHost("localhost", 9200, "http")).build();
 

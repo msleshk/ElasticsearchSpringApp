@@ -26,7 +26,7 @@ public class Product {
     private Boolean active;
 
     @DateTimeFormat(pattern = "dd/MM/yyyy")
-    @Column(name="start_date")
+    @Column(name = "start_date")
     @Temporal(TemporalType.DATE)
     private Date startDate;
 

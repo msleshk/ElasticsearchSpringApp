@@ -17,7 +17,7 @@ public class DataSearchController {
     }
 
     @GetMapping("/search")
-    public List<Product> searchProducts(@RequestParam String keyword){
+    public List<Product> searchProducts(@RequestParam String keyword) {
         return searchService.searchProducts(keyword);
     }
 }
