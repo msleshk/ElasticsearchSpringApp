@@ -1,6 +1,7 @@
 package com.example.ElasticsearchSpringApp.controller;
 
 import com.example.ElasticsearchSpringApp.service.DataLoadService;
+import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,6 +18,7 @@ public class DataLoadController {
     }
 
     @PostMapping("/start")
+    @Operation(summary = "Load data to Elasticsearch", description = "Starts loading data from the PostgreSQL database to Elasticsearch, ignoring inactive products.")
     public String loadData() throws IOException {
         try {
             dataLoadService.loadDataToElasticsearch();
